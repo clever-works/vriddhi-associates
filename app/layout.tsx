@@ -26,18 +26,6 @@ export const metadata: Metadata = {
   },
   description:
     "Vriddhi Associates is your trusted property partner in Chennai — buying, selling, leasing, property management, maintenance, NRI property care, branding & marketing, and business solutions under one roof.",
-  keywords: [
-    "Vriddhi Associates",
-    "property solutions Chennai",
-    "property management Chennai",
-    "NRI property care Chennai",
-    "property maintenance Chennai",
-    "tenant management Chennai",
-    "real estate consultants Chennai",
-    "residential and commercial property Chennai",
-    "branding and marketing agency Chennai",
-    "business solutions consulting",
-  ],
   applicationName: "Vriddhi Associates",
   authors: [{ name: "Vriddhi Associates" }],
   category: "business",
