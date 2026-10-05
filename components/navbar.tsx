@@ -26,8 +26,8 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-cream/90 backdrop-blur-md shadow-[0_1px_0_rgba(20,33,61,0.08)]"
+        scrolled || open
+          ? "bg-cream/95 backdrop-blur-md shadow-[0_1px_0_rgba(20,33,61,0.08)]"
           : "bg-transparent"
       }`}
     >
@@ -92,7 +92,7 @@ export default function Navbar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="overflow-hidden bg-cream/98 backdrop-blur-md lg:hidden"
+            className="overflow-hidden bg-cream lg:hidden"
           >
             <ul className="container-px flex flex-col gap-1 pb-6">
               {links.map((link) => (
