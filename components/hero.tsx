@@ -84,7 +84,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="eyebrow-light"
           >
-            Property Solutions &middot; Property Management &middot; Branding &amp; Business Solutions
+            Property Solutions &middot; Branding &amp; Marketing &middot; MSME Consulting &middot; Multi-Level Parking
           </motion.p>
 
           <motion.h1
@@ -111,9 +111,9 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="mt-4 max-w-xl font-body text-lg leading-relaxed text-cream/70"
           >
-            We help property owners, investors, NRIs and businesses with
-            buying, selling, leasing, property management and maintenance
-            &mdash; all under one roof.
+            We provide end-to-end property solutions, branding and marketing,
+            MSME business consulting, and multi-level car parking solutions
+            across Chennai and Tamil Nadu.
           </motion.p>
 
           <motion.div

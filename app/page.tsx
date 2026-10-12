@@ -6,7 +6,6 @@ import Testimonials from "@/components/testimonials";
 import WhyChooseUs from "@/components/why-choose-us";
 import Process from "@/components/process";
 import Industries from "@/components/industries";
-import NriPropertyCare from "@/components/nri-property-care";
 import CtaBanner from "@/components/cta-banner";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
@@ -26,7 +25,6 @@ export default function Home() {
         <WhyChooseUs />
         <Process />
         <Industries />
-        <NriPropertyCare />
         <CtaBanner />
         <Contact />
       </main>

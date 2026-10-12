@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | Vriddhi Associates",
   },
   description:
-    "Vriddhi Associates is your trusted property partner in Chennai — buying, selling, leasing, property management, maintenance, NRI property care, branding & marketing, and business solutions under one roof.",
+    "Vriddhi Associates offers end-to-end property solutions, branding and marketing services, MSME business consulting, and multi-level car parking solutions in Chennai and Tamil Nadu.",
   applicationName: "Vriddhi Associates",
   authors: [{ name: "Vriddhi Associates" }],
   category: "business",
@@ -56,13 +56,13 @@ export const metadata: Metadata = {
     siteName: "Vriddhi Associates",
     title: "Vriddhi Associates | Your Trusted Property Partner in Chennai",
     description:
-      "End-to-end property solutions, property management, maintenance, and NRI property care — plus branding & marketing and business solutions, all under one roof.",
+      "End-to-end property solutions, branding and marketing, MSME business consulting, and multi-level car parking in Chennai and Tamil Nadu.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Vriddhi Associates — Property Solutions | Branding & Marketing | Business Solutions",
+        alt: "Vriddhi Associates — Property, Branding, MSME Consulting and Parking Solutions",
       },
     ],
   },
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Vriddhi Associates | Your Trusted Property Partner in Chennai",
     description:
-      "End-to-end property solutions, property management, maintenance, and NRI property care under one roof.",
+      "Property solutions, branding and marketing, MSME business consulting, and multi-level car parking in Chennai and Tamil Nadu.",
     images: ["/og-image.jpg"],
   },
 };

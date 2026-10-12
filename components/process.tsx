@@ -17,7 +17,7 @@ const steps = [
   {
     n: "03",
     title: "Service Plan",
-    body: "We put together a tailored plan covering management, maintenance, or leasing needs.",
+    body: "We put together a tailored plan for your property, branding, MSME, or parking requirements.",
   },
   {
     n: "04",

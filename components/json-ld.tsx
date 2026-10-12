@@ -5,7 +5,7 @@ export default function JsonLd() {
     name: "Vriddhi Associates",
     alternateName: "Vriddhi",
     description:
-      "Vriddhi Associates is a one-stop Property Solutions company in Chennai offering end-to-end real estate, property management, property maintenance, NRI property care, branding & marketing, and business solutions.",
+      "Vriddhi Associates offers end-to-end property solutions, branding and marketing services, MSME business consulting, and multi-level car parking solutions in Chennai and Tamil Nadu.",
     url: "https://www.vriddhiassociates.com",
     logo: "https://www.vriddhiassociates.com/logo.png",
     image: "https://www.vriddhiassociates.com/logo.png",
@@ -26,54 +26,36 @@ export default function JsonLd() {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Property Solutions",
+          name: "End-to-End Property Solutions",
           description:
-            "Buying & selling, residential & commercial leasing, built-to-suit projects, and investment advisory.",
+            "Buying and selling, residential and commercial leasing, built-to-suit projects, and investment advisory.",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Property Management & Maintenance",
+          name: "Branding & Marketing Services",
           description:
-            "Regular inspection, photo & video reports, vacant property care, key holding, and full maintenance coordination.",
+            "Branding, digital and social media marketing, creative design, and website development.",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "NRI Property Care",
+          name: "Business Consultant – MSME",
           description:
-            "Inspection, maintenance, repair coordination, statutory dues payment, and tenant management for NRI property owners.",
+            "Government scheme identification, MSME growth support, eligibility guidance, funding and incentive opportunities, documentation support, and strategic business guidance through association with Lumen Network.",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Tenant Management",
+          name: "Multi-Level Car Parking Solutions",
           description:
-            "Tenant search, rental agreement assistance, move-in/move-out inspection, and rent collection follow-up.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Branding & Marketing",
-          description:
-            "Branding, digital marketing, social media marketing, creative design, and website development.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Business Solutions",
-          description:
-            "Business consulting, franchise support, project coordination, and strategic partnerships.",
+            "Customised stack, puzzle, tower, shuttle, multi-level, and automated parking solutions with project installation and support for Chennai and Tamil Nadu.",
         },
       },
     ],
@@ -82,7 +64,6 @@ export default function JsonLd() {
   return (
     <script
       type="application/ld+json"
-      // eslint-disable-next-line react/no-danger
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
     />
   );

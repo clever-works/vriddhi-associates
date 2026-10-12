@@ -4,25 +4,17 @@ import { motion } from "framer-motion";
 import { services } from "./services-data";
 import {
   PropertySolutionsIcon,
-  PropertyManagementIcon,
-  PropertyMaintenanceIcon,
-  PropertyAdministrationIcon,
-  TenantManagementIcon,
-  RenovationIcon,
   BrandingIcon,
   BusinessIcon,
+  ParkingIcon,
 } from "./service-icons";
 import { fadeUp, staggerContainer, viewportOnce } from "./motion-utils";
 
 const icons = [
   PropertySolutionsIcon,
-  PropertyManagementIcon,
-  PropertyMaintenanceIcon,
-  PropertyAdministrationIcon,
-  TenantManagementIcon,
-  RenovationIcon,
   BrandingIcon,
   BusinessIcon,
+  ParkingIcon,
 ];
 
 export default function Services() {
@@ -41,8 +33,8 @@ export default function Services() {
             Our Services
           </h2>
           <p className="mt-3 font-body text-sm leading-relaxed text-cream/60">
-            One-stop Property Solutions &mdash; real estate, property
-            management, branding &amp; marketing, and business solutions.
+            Property solutions, branding &amp; marketing, MSME business
+            consulting, and multi-level car parking.
           </p>
         </motion.div>
 
@@ -51,7 +43,7 @@ export default function Services() {
           whileInView="visible"
           viewport={viewportOnce}
           variants={staggerContainer}
-          className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"
+          className="mt-14 grid gap-6 sm:grid-cols-2"
         >
           {services.map((service, i) => {
             const Icon = icons[i];
@@ -69,9 +61,24 @@ export default function Services() {
                 <h3 className="mt-6 font-display text-xl font-bold text-cream">
                   {service.title}
                 </h3>
+                {service.subtitle && (
+                  <p className="mt-2 font-display text-sm font-semibold leading-relaxed text-gold">
+                    {service.subtitle}
+                  </p>
+                )}
                 <p className="mt-3 font-body text-sm leading-relaxed text-cream/60">
                   {service.blurb}
                 </p>
+                {service.details && (
+                  <p className="mt-3 font-body text-sm leading-relaxed text-cream/60">
+                    {service.details}
+                  </p>
+                )}
+                {service.listHeading && (
+                  <p className="mt-5 font-body text-sm font-semibold text-cream/80">
+                    {service.listHeading}
+                  </p>
+                )}
                 <ul className="mt-6 space-y-2 border-t border-cream/10 pt-6">
                   {service.items.map((item) => (
                     <li
@@ -83,6 +90,11 @@ export default function Services() {
                     </li>
                   ))}
                 </ul>
+                {service.closing && (
+                  <p className="mt-5 font-body text-sm leading-relaxed text-cream/60">
+                    {service.closing}
+                  </p>
+                )}
               </motion.article>
             );
           })}

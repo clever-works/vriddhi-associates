@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { fadeUp, staggerContainer, viewportOnce } from "./motion-utils";
 
-const values = ["Transparency", "Professionalism", "Reliability", "Trust", "Long-Term Partnership"];
+const values = ["Transparency", "Professionalism", "Reliability", "Trust", "Growth", "Long-Term Relationships"];
 
 export default function About() {
   return (
@@ -14,24 +14,31 @@ export default function About() {
           whileInView="visible"
           viewport={viewportOnce}
           variants={fadeUp}
-          className="max-w-2xl"
+          className="grid max-w-6xl gap-x-16 gap-y-5 lg:grid-cols-[0.8fr,1.2fr] lg:items-start"
         >
-          <p className="eyebrow">About us</p>
-          <h2 className="mt-3 font-display text-3xl font-extrabold text-navy sm:text-4xl">
+          <div className="lg:row-span-3">
+            <p className="eyebrow">About us</p>
+            <h2 className="mt-3 font-display text-3xl font-extrabold text-navy sm:text-4xl">
             Welcome to Vriddhi Associates
-          </h2>
-          <p className="mt-5 font-body text-lg leading-relaxed text-slate">
-            Vriddhi Associates delivers reliable property solutions with a
-            focus on transparency, professionalism and long-term
-            relationships. Whether you own a single apartment or multiple
-            investment properties, we become your trusted local
-            representative and ensure your assets are protected and well
-            managed.
+            </h2>
+          </div>
+          <p className="font-body text-lg leading-relaxed text-slate">
+            Vriddhi Associates brings together property, marketing, business
+            consulting and parking solutions under one platform.
           </p>
-          <p className="mt-4 font-display text-xl font-bold text-navy">
-            One-stop Property Solutions &mdash; real estate, property
-            management, branding &amp; marketing, and business solutions,
-            all under one roof.
+          <p className="font-body text-lg leading-relaxed text-slate">
+            We work with property owners, businesses, MSMEs, developers and
+            organisations, connecting them with the right opportunities,
+            services and professional support.
+          </p>
+          <p className="font-body text-lg leading-relaxed text-slate">
+            Our expertise combines real estate solutions, branding &amp;
+            marketing, MSME business consulting, and multi-level car parking
+            solutions through our associated networks and industry partners.
+          </p>
+          <p className="font-display text-xl font-bold text-navy lg:col-start-2">
+            One platform. Multiple solutions &mdash; property, marketing, MSME
+            consulting and smart parking.
           </p>
         </motion.div>
 
@@ -48,8 +55,9 @@ export default function About() {
           >
             <p className="eyebrow">Vision</p>
             <p className="mt-3 font-body text-navy/80">
-              To become the most trusted property partner for owners,
-              investors, and NRIs across Chennai.
+              To build a trusted and professionally connected platform that
+              helps individuals, businesses and organisations discover the
+              right opportunities and solutions for growth.
             </p>
           </motion.div>
           <motion.div
@@ -58,9 +66,9 @@ export default function About() {
           >
             <p className="eyebrow">Mission</p>
             <p className="mt-3 font-body text-navy/80">
-              To protect and grow every property we manage through
-              transparent communication, regular updates, and dependable
-              on-ground service.
+              To deliver practical, reliable and transparent solutions across
+              property, marketing, MSME consulting and parking, while creating
+              long-term relationships with clients and business partners.
             </p>
           </motion.div>
           <motion.div

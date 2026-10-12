@@ -228,14 +228,10 @@ export default function Contact() {
                   <option value="" disabled>
                     Select a service
                   </option>
-                  <option value="property-solutions">Property Solutions</option>
-                  <option value="property-management">Property Management</option>
-                  <option value="property-maintenance">Property Maintenance</option>
-                  <option value="property-administration">Property Administration</option>
-                  <option value="tenant-management">Tenant Management</option>
-                  <option value="renovation-repair">Renovation &amp; Repair Coordination</option>
-                  <option value="branding-marketing">Branding &amp; Marketing</option>
-                  <option value="business-solutions">Business Solutions</option>
+                  <option value="property-solutions">End-to-End Property Solutions</option>
+                  <option value="branding-marketing">Branding &amp; Marketing Services</option>
+                  <option value="business-consultant-msme">Business Consultant (MSME)</option>
+                  <option value="multi-level-car-parking">Multi-Level Car Parking Solutions</option>
                   <option value="other">Other / Not sure yet</option>
                 </select>
               </div>

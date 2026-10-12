@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="font-body text-sm text-cream/60">
-          Property Solutions | Branding &amp; Marketing | Business Solutions
+          Property Solutions | Branding &amp; Marketing | MSME Consulting | Multi-Level Parking
         </p>
         <p className="font-display text-sm italic text-gold/80">
           &ldquo;Your Trusted Property Partner in Chennai.&rdquo;
